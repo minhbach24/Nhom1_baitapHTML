@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>quanghuuxx</title>
+	<style type="text/css">
+		.shape
+		{
+			margin: auto;
+			width: 500px;
+			height: 500px;
+			border-radius: 50%;
+			transition: border-radius 2.5s , background 2.5s;
+			background: tomato;
+
+		}
+		.shape:hover
+		{
+			border-radius: 5%;
+			background: orange;
+
+		}
+		.shape:hover .textname
+		{
+			color: white;
+			padding-top: 10px;
+			font-size: 32px;
+		}
+		.textname
+		{
+			font-size: 28px;
+			text-align: center;
+			padding-top: 250px;
+			transition: border-top 2.5s, padding-top 2.5s , font-size 2.5s;
+		}
+		.shape:hover .info
+		{
+			display: block;
+
+		}
+		.info
+		{
+			text-align: center;
+			display: none;
+
+		}
+
+	</style>
+</head>
+<body>
+		<div class="shape">
+			<p class="textname">Quang Hữu Trần</p>
+			<p class="info" style="font-size: 24px"><i>Đã ngồi ở đây !!</i></p>
+		</div>
+</body>
+</html>
