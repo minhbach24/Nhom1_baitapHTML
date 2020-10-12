@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bai 13</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bai13.css">
+	<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/bai13.js">>	</script>
+</head>
+<body>
+	<div class="container">
+	<center><h1>Đăng kí du lịch</h1></center>
+	<div class="row">
+	<div class="center">
+		<form id="dangKyForm">
+		<table class="table-warning table-bordered tableCustom table" >
+			<tr>
+				<td>
+					<label class="blue">Họ và tên</label>	
+				</td>
+				<td>
+					<input required="true" type="text" name="hovaten" id="hovaten">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label class="blue">Địa chỉ</label>	
+				</td>
+				<td>
+					<input required="true" type="text" name="dia chi" id="diachi">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label class="blue">Điện thoại</label>	
+				</td>
+				<td>
+					<input required="true" type="text" name="dien thoai" id="dienthoai">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label class="blue">Khách Việt Nam</label>	
+				</td>
+				<td>	
+					<input required="true" type="checkbox" name="khach" id="khach">
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label class="blue">Chọn tour</label>	
+				</td>
+				<td>	
+					<select name="chon tour" id="chontour">
+						<optgroup value="mb"><label>Miền Bắc</label> 
+							<option value="hhs">Hà Nội-Hạ Long-Sapa
+							<option value="hcn">Hà Nội-Chùa Hương-Ninh Bình
+							<option value="hct">Hà Nội-Cát Bà-Tuần Châu
+						</optgroup>
+						<optgroup value="mt"><label>Miền Trung</label>
+							<option value="hbn">Huế-Bạch Mã-Đà Nẵng
+							<option value="nd">Nha Trang-Đà Lạt
+							<option value="bgc" selected>Buôn mê thuột-Gia Lai-Kon Tum
+						</optgroup>
+						<optgroup value="mn"><label>Miền Nam</label>
+							<option value="hcc">TP HCM-Cần Thơ-Cà Mau
+							<option value="hm">TP HCM-Mĩ Tho
+						</optgroup>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label class="blue">Phương Tiện</label>	
+				</td>
+				<th>	
+					<span><input checked="true" type="radio" name="pt" value="maybay">Máy bay</span>
+					<span><input type="radio" name="pt" value="xeoto">Xe ô tô</span>
+				</th>
+			</tr>
+
+			<tr>
+				<td align="center" colspan="2">	
+					<fieldset>
+						<legend>số lượng đoàn khách</legend>
+						<span><label>người lớn</label> <input name ="nguoi lon"type="text" id="nl" width="50px"></span>
+						<span><label>trẻ em</label> <input name="tre em" type="text" id="te" width="50px"></span>
+					</fieldset>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label class="blue">Ghi chú thêm</label>	
+				</td>
+				<td>	
+					<textarea name="ghi chu them" rows="1"></textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2">	
+					<center><input type="button" id="btn_accept" value="Đồng ý"></center>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="center">
+					<p id="message"></p>
+				</td>
+			</tr>
+		</table>
+	</form>
+		
+	</div>	
+	
+	</div>
+	</div>
+</body>
+</html>

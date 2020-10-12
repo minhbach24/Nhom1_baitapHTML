@@ -1,0 +1,15 @@
+h1
+{ 
+    color: green;
+    text-align: center;
+}
+label
+{
+    color: green;
+}
+.tableCustom
+{
+	margin: 0 auto;
+	width: 50%;
+
+}

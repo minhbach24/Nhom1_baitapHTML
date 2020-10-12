@@ -1,0 +1,20 @@
+h1 {
+ color: blue; 
+ text-align: center;
+}
+.blue { color: blue; }
+fieldset {border: medium;}
+legend { font-style-color: red;}
+input { margin: 5px;}
+
+.tableCustom
+{
+	margin: 0 auto;
+	width: 100%;
+
+}
+.center
+{  
+	margin: auto;
+	width: 50%
+}
